@@ -37,6 +37,8 @@ def main():
         result = prediction(Engine_rpm,Shaft_power,Wind_speed,Current_speed)
         st.success('The required fuel rate is {}'.format(result))
         print(result)
+    if st.button("About"):
+        st.success("Developed by: Winston maben, Prajwal Kumar, M B Akash, Arsala Jamsheed.")
 
 if __name__=='__main__':
     main()
